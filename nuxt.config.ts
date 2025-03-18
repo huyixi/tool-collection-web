@@ -3,10 +3,21 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  modules: ["@pinia/nuxt"],
+  modules: ["@nuxt/image"],
   css: ["~/assets/css/main.css"],
   vite: {
     plugins: [tailwindcss()],
   },
   ssr: true,
+  image: {
+    dir: "public/images", // Point to your image directory
+    presets: {
+      default: {
+        modifiers: {
+          format: "webp",
+          quality: "80",
+        },
+      },
+    },
+  },
 });

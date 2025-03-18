@@ -12,22 +12,16 @@
 <script setup>
 const tools = [
     {
-        name: "Figma",
+        name: "名单比对",
+        summary: "找出是两份名单中不同的名字.",
+        url: "https://name-comparison.huyixi.com",
+        icon: "/images/name-comparison.png",
+    },
+    {
+        name: "即将到来",
         summary: "A collaborative interface design tool.",
         url: "https://www.figma.com",
-        icon: "https://www.figma.com/favicon.ico",
-    },
-    {
-        name: "CodePen",
-        summary: "An online code editor and testing environment.",
-        url: "https://codepen.io",
-        icon: "https://blog.codepen.io/wp-content/uploads/2014/08/codepen-wordmark-display-inside-white@10x.png",
-    },
-    {
-        name: "Canva",
-        summary: "A simple graphic design tool for everyone.",
-        url: "https://www.canva.com",
-        icon: "https://static.canva.com/static/images/favicon.ico",
+        icon: "/images/name.png",
     },
 ];
 </script>
