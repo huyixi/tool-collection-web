@@ -18,6 +18,12 @@ const tools = [
         icon: "/images/name-comparison.png",
     },
     {
+        name: "25佛山草莓排班表",
+        summary: "2025年佛山草莓饮品组排班表",
+        url: "https://2025foshan.huyixi.com",
+        icon: "/images/name-comparison.png",
+    },
+    {
         name: "即将到来",
         summary: "A collaborative interface design tool.",
         url: "https://www.figma.com",
