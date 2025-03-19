@@ -8,16 +8,5 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  ssr: true,
-  image: {
-    dir: "public/images", // Point to your image directory
-    presets: {
-      default: {
-        modifiers: {
-          format: "webp",
-          quality: "80",
-        },
-      },
-    },
-  },
+  image: {},
 });
