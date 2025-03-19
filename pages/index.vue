@@ -20,7 +20,7 @@ const tools = [
     {
         name: "25佛山草莓排班表",
         summary: "2025年佛山草莓饮品组排班表",
-        url: "https://2025foshan.huyixi.com",
+        url: "https://fs25.huyixi.com",
         icon: "/images/name-comparison.png",
     },
     {
