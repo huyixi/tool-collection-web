@@ -12,6 +12,12 @@
 <script setup>
 const tools = [
     {
+        name: "Nuxt Favicon 生成器",
+        summary: "快速生成 Nuxt 项目的网站图标，支持多种尺寸和格式的自动生成",
+        url: "nuxt-favicon-generator.huyixi.com",
+        icon: "/images/name.png",
+    },
+    {
         name: "名单比对",
         summary: "快速找出两份名单中不同的名字。",
         url: "https://name-comparison.huyixi.com",
