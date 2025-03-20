@@ -39,7 +39,7 @@ const tools = [
         name: "900 Months",
         summary: "人的一生大概有 900 个月，看看你现在度过了几个月",
         url: "https://900months.huyixi.com/",
-        icon: "/images/year-progress.svg",
+        icon: "/images/900month.png",
     },
     {
         name: "即将到来",
