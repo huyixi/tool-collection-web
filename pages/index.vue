@@ -13,7 +13,7 @@
 const tools = [
     {
         name: "名单比对",
-        summary: "找出是两份名单中不同的名字.",
+        summary: "快速找出两份名单中不同的名字。",
         url: "https://name-comparison.huyixi.com",
         icon: "/images/name.png",
     },
@@ -23,6 +23,19 @@ const tools = [
         url: "https://fs25.huyixi.com",
         icon: "/images/strawberry.png",
     },
+    {
+        name: "tic-tac-toe",
+        summary: "React 教程的练习小游戏",
+        url: "https://tic-tac-toe.huyixi.com/",
+        icon: "/images/tic-tac-toe.svg",
+    },
+    {
+        name: "时间进度表",
+        summary: "使用 Svelte 搭建的年度时间进度条",
+        url: "https://yearsprogress.huyixi.com/",
+        icon: "/images/year-progress.svg",
+    },
+
     {
         name: "即将到来",
         summary: "A collaborative interface design tool.",
