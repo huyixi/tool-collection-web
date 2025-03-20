@@ -35,7 +35,12 @@ const tools = [
         url: "https://yearsprogress.huyixi.com/",
         icon: "/images/year-progress.svg",
     },
-
+    {
+        name: "900 Months",
+        summary: "人的一生大概有 900 个月，看看你现在度过了几个月",
+        url: "https://900months.huyixi.com/",
+        icon: "/images/year-progress.svg",
+    },
     {
         name: "即将到来",
         summary: "A collaborative interface design tool.",
